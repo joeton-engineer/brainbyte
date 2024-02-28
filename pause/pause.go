@@ -10,7 +10,8 @@ import (
 	"time"
 )
 
-func startPause() {
+func StartPause() {
+	fmt.Println("TESTING....")
 	// Seed the random number generator
 	rand.Seed(time.Now().UnixNano())
 
